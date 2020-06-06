@@ -7,8 +7,9 @@ import java.io.*;
 
 // Starter code taken from course : Algorithmic Toolbox by UC San Diego on Coursera
 
-//Naive implementaion. Time complexity = O(n^2)
 public class MaxPairwiseProduct {
+
+    //Naive implementaion. Time complexity = O(n^2)
     static long getMaxPairwiseProduct(int[] numbers) {
         long max_product = 0;
         int n = numbers.length;
