@@ -27,8 +27,6 @@ public class FractionalKnapsack {
         }
 
         Collections.sort(values_per_weight, new Comparator<vpw_node>() {
-            // A comparison function which is used by
-            // sort() in printLargest()
             @Override
             public int compare(vpw_node X, vpw_node Y) {
                 return X.val < Y.val ? 1 : -1;
